@@ -1,0 +1,27 @@
+2021-08-10 23:38:52,175 WARN  [SoapUI] Missing folder [C:\Users\PadmajaNayak\RestApiAssignment\ext] for external libraries
+2021-08-10 23:38:52,473 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\PadmajaNayak\soapui-settings.xml]
+2021-08-10 23:38:53,292 INFO  [WsdlProject] Loaded project from [file:/C:/Users/PadmajaNayak/RestApiAssignment/Swagger-soapui-project.xml]
+2021-08-10 23:38:53,979 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Swagger]
+2021-08-10 23:38:53,981 INFO  [SoapUITestCaseRunner] Running Project [Swagger], runType = SEQUENTIAL
+2021-08-10 23:38:54,004 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_001]
+2021-08-10 23:38:54,031 INFO  [SoapUITestCaseRunner] running step [Authorization]
+2021-08-10 23:38:55,312 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-08-10 23:38:55,313 INFO  [SoapUITestCaseRunner] running step [setAccessToken]
+2021-08-10 23:38:55,618 INFO  [log] a6060c7012c45b7821ee300592acea0522008e3f
+2021-08-10 23:38:55,626 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_001], time taken: 1180ms, status: FINISHED
+2021-08-10 23:38:55,644 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_002]
+2021-08-10 23:38:55,646 INFO  [SoapUITestCaseRunner] running step [getLoginTestData]
+2021-08-10 23:38:55,939 INFO  [log] The number of rows are 2
+2021-08-10 23:38:55,939 INFO  [log] The number of columns are 2
+2021-08-10 23:38:55,955 INFO  [log] The username is: upskills_admin
+2021-08-10 23:38:55,956 INFO  [log] The password is: Talent4$$
+2021-08-10 23:38:55,958 INFO  [SoapUITestCaseRunner] running step [Login]
+2021-08-10 23:38:56,573 INFO  [log] upskills_admin
+2021-08-10 23:38:56,574 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-08-10 23:38:56,575 INFO  [SoapUITestCaseRunner] running step [getUser]
+2021-08-10 23:38:57,310 INFO  [log] upskills_admin
+2021-08-10 23:38:57,311 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-08-10 23:38:57,312 INFO  [SoapUITestCaseRunner] running step [logOut]
+2021-08-10 23:38:57,761 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-08-10 23:38:57,761 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_002], time taken: 2011ms, status: FINISHED
+2021-08-10 23:38:57,763 INFO  [SoapUITestCaseRunner] Project [Swagger] finished with status [FINISHED] in 3771ms

@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 468
+Size: 0
+Timestamp: Tue Aug 10 23:38:16 IST 2021
+TestStep: setAccessToken
+Error:java.lang.NullPointerException: Cannot invoke method setPropertyValue() on null object
+
+----------------- Messages ------------------------------
+java.lang.NullPointerException: Cannot invoke method setPropertyValue() on null object
+error at line: 14
